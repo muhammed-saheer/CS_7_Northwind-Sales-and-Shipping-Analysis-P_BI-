@@ -46,6 +46,10 @@ The project is based on 7 CSV files representing the business data of Northwind 
 - **Screenshot**:  
   ![Sales Trend](https://github.com/muhammed-saheer/CS_7_Northwind-Sales-and-Shipping-Analysis-P_BI-/blob/main/images/Sales%20Overview.png)
 
+
+- **Objective**: Understand how sales evolve over time and identify any monthly/seasonal surges.
+- **Conclusion**: Sales typically spike in Q4, indicating strong seasonal demand during the end of the year.
+
 ---
 
 ### 📌 Q2. Which are the best and worst-selling products?
@@ -55,6 +59,10 @@ The project is based on 7 CSV files representing the business data of Northwind 
 - **Steps**: Created `Total Sales` column in `order_details`, joined with `products`, sorted descending.
 - **Screenshot**:  
   ![Top Products](https://github.com/muhammed-saheer/CS_7_Northwind-Sales-and-Shipping-Analysis-P_BI-/blob/main/images/Product%20Performance.png)
+
+- **Objective**: Focus on products driving the most revenue and identify underperforming SKUs.
+- **Conclusion**: ‘Chai’ and ‘Chang’ were the top sellers; products like ‘Ikura’ performed poorly and may need reevaluation.
+
 
 ---
 
@@ -66,6 +74,9 @@ The project is based on 7 CSV files representing the business data of Northwind 
 - **Screenshot**:  
   ![Key Customers](https://github.com/muhammed-saheer/CS_7_Northwind-Sales-and-Shipping-Analysis-P_BI-/blob/main/images/Customer%20Insights.png)
 
+- **Objective**: Prioritize high-value customers for retention and personalized offers.
+- **Conclusion**: ‘QUICK-Stop’ and ‘Wolski Zajazd’ were the top contributors to revenue; retention strategies can focus on these segments.
+
 ---
 
 ### 📌 Q4. Are shipping costs consistent across providers?
@@ -76,6 +87,9 @@ The project is based on 7 CSV files representing the business data of Northwind 
 - **Screenshot**:  
   ![Shipping Cost](https://github.com/muhammed-saheer/CS_7_Northwind-Sales-and-Shipping-Analysis-P_BI-/blob/main/images/Shipping%20Analysis.png)
 
+- **Objective**: Identify which shipping providers offer cost-effective solutions.
+- **Conclusion**: Speedy Express consistently offers lower average freight costs; Federal Shipping is the most expensive.
+
 ---
 
 ### 📌 Q5. What are the most profitable product categories?
@@ -85,6 +99,9 @@ The project is based on 7 CSV files representing the business data of Northwind 
 - **Steps**: Join `order_details` → `products` → `categories` and aggregate sales.
 - **Screenshot**:  
   ![Category Profitability](https://github.com/muhammed-saheer/CS_7_Northwind-Sales-and-Shipping-Analysis-P_BI-/blob/main/images/Deep%20Dive%20%E2%80%93%20Category%20Profitability.png)
+
+- **Objective**: Guide inventory and marketing focus based on profitability.
+- **Conclusion**: ‘Beverages’ and ‘Confections’ were the most profitable categories; prioritizing these may enhance business returns.
 
 ---
 
